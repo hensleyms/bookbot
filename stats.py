@@ -7,7 +7,7 @@ def count_characters(text):
     counts = {}
     for character in text:
         if character in counts:
-         counts[character] = counts[character] + 1
+            counts[character] = counts[character] + 1
         else:
-           counts.update({character:1})
+            counts.update({character:1})
     return counts
